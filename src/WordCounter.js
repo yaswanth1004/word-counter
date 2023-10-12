@@ -11,12 +11,12 @@ function WordCounter() {
 
   return (
     <div>
-      <h1>Word Counter</h1>
+      <h1>Responsive Paragraph Word Counter</h1>
       <textarea
-        placeholder="Enter your text here..."
+        placeholder="Hi..."
         value={text}
         onChange={(e) => setText(e.target.value)}
-        rows={5}
+        rows={10}
       />
       <p>Word Count: {countWords()}</p>
     </div>
