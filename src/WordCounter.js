@@ -16,7 +16,7 @@ function WordCounter() {
         placeholder="Hi..."
         value={text}
         onChange={(e) => setText(e.target.value)}
-        rows={10}
+        rows={11}
       />
       <p>Word Count: {countWords()}</p>
     </div>
